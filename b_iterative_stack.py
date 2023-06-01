@@ -81,7 +81,12 @@ def pop(stack: Stack) -> tuple[int, Stack]:
     stack.head = top.next
     return top.value, stack
 
-
+# stack = initialize()
+# stack = push(stack, 3)
+# stack = push(stack, 31)
+# stack = push(stack, 310)
+# stack = push(stack, 9)
+# print(pop(stack))
 # input : a list
 # output: an empty list
 def clear(stack: Stack) -> Stack:
